@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
     <footer css={[outer, SiteFooter]}>
       <div css={[inner, SiteFooterContent]}>
         <section className="copyright">
-          <Link to="/blog">SJB Blogs</Link> &copy; {new Date().getFullYear()}{' '}
+          <Link to="/blog">Sash Blogs</Link> &copy; {new Date().getFullYear()}{' '}
           {config.footer && <Link to="/">| {config.footer}</Link>}
         </section>
         <SiteFooterNav>
@@ -29,7 +29,6 @@ export const Footer: React.FC = () => {
             </a>
           )}
           <Link to="/contact">Contact</Link>
-          <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
     </footer>
@@ -39,7 +38,7 @@ export const Footer: React.FC = () => {
 const SiteFooter = css`
   position: relative;
   padding-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 25px;
   color: #fff;
   background: ${setLightness('0.0015', colors.darkgrey)};
 `;

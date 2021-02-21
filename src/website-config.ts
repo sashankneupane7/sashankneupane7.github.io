@@ -75,7 +75,7 @@ const config: WebsiteConfig = {
   linkedin: 'https://www.linkedin.com/in/sashank-neupane-8b4330192/?originalSubdomain=np',
   email: 'sashankneupane7@gmail.com',
   showSubscribe: true,
-  mailchimpName: 'sashank blogs',
+  mailchimpName: 'Sashank Blogs',
   mailchimpEmailFieldName: 'email',
   mailchimpAction: 'https://feedburner.google.com/fb/a/mailverify?uri=sjbblogs',
   googleSiteVerification: 'GoogleCode',
