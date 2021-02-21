@@ -5,7 +5,7 @@ import { lighten } from 'polished';
 import ThemeContext from '../context/ThemeContext';
 // eslint-disable-next-line @typescript-eslint/prefer-ts-expect-error
 // @ts-ignore
-import favicon from '../../src/favicon.ico';
+import favicon from '../../src/user.png';
 import { colors } from '../styles/colors';
 import {darkTheme} from '../components/darkmode';
 

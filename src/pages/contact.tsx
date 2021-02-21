@@ -88,7 +88,7 @@ const Contact: React.FC = () => (
               </SiteDescription>
               <SiteDescription>
                 Let's connect. I would love to hear from you. I am always open to constructive feedback and suggestions. Also, you can drop down your queries
-                or discuss about new projects, creative ideas, and opportunities.
+                or discuss about new projects, creative ideas, and fresh opportunities.
               </SiteDescription>
               <SiteDescription>
                 If you want to report bugs, typos, grammatical errors, or any other types of

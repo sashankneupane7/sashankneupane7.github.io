@@ -359,6 +359,7 @@ export const imageCropper = css`
   margin-left: auto;
   margin-top: 100%;
   margin-right: auto;
+  position: relative;
   overflow: hidden;
   border-radius: 50%;
   border: 1.5px solid white;

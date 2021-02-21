@@ -60,11 +60,10 @@ const About: React.FC = () => (
             </PostFullHeader>
 
             <PostFullContent className="post-full-content">
+
               <div className="post-content">
                 <p>
-                  <h5>A Personal Portfolio and Blogging Website</h5>
-                </p>
-                <p>
+                  <div style={{ fontSize: 30, paddingBottom: 10 }}><b>A Personal Website</b></div>
                   Hey! I am Sashank Neupane. I am fascinated by Computer Science, Mathematics, and
                   Entrepreneurship. I love exploring and travelling. This website is created to help me put forth
                   my ideas and experience to the entire world.
