@@ -7,7 +7,7 @@ const Comment = ({ commentBox,theme}) => {
     const scriptEl = document.createElement('script');
     scriptEl.async = true;
     scriptEl.src = 'https://utteranc.es/client.js';
-    scriptEl.setAttribute('repo', 'basnetsoyuj/personal-website');
+    scriptEl.setAttribute('repo', 'sashankneupane7/sashankneupane7.github.io');
     scriptEl.setAttribute('issue-term', 'title');
     scriptEl.setAttribute('label', 'comment :pencil:');
     scriptEl.setAttribute('id', 'utterances');

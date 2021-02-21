@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
 const SiteFooter = css`
   position: relative;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 60px;
   color: #fff;
   background: ${setLightness('0.0015', colors.darkgrey)};
 `;

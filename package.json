@@ -1,9 +1,9 @@
 {
-  "name": "sjb_website",
-  "description": "Personal portfolio and blogging website of Soyuj Jung Basnet",
+  "name": "sashank_website",
+  "description": "Personal portfolio and blogging website of Sashank Neupane",
   "version": "0.0.0",
   "private": true,
-  "author": "Soyuj Jung Basnet <bsoyuj@gmail.com>",
+  "author": "Sashank Neupane <sashankneupane7@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

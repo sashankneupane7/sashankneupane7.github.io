@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://soyuj.com.np',
+  URL: NETLIFY_SITE_URL = 'https://sashankneupane.com.np',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env;
@@ -17,10 +17,10 @@ function filterHTML(str, url) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Soyuj Jung Basnet',
+    title: 'Sashank Neupane',
     description:
-      'Personal portfolio and blogging website of Soyuj Jung Basnet. A collection of my thoughts, musings, experiences, tutorials, snippets, articles, and everything else.',
-    siteUrl: 'https://soyuj.com.np',
+      'Personal portfolio and blogging website of Sashank Neupane. A collection of my thoughts, musings, experiences, tutorials, snippets, articles, and everything else.',
+    siteUrl: 'https://sashankneupane.com.np',
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -139,7 +139,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://soyuj.com.np',
+        siteUrl: 'https://sashankneupane.com.np',
       },
     },
     'gatsby-plugin-emotion',
@@ -197,7 +197,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: `Soyuj Jung Basnet Blogs' RSS Feed`,
+            title: `Sashank Neupane's RSS Feed`,
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;

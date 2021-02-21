@@ -55,6 +55,7 @@ const Tags: React.FC<TagTemplateProps> = props => {
       }
     }
   }
+ 
   return (
     <IndexLayout>
       <Helmet>
