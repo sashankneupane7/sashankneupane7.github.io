@@ -30,6 +30,9 @@ class SiteNav extends React.Component<SiteNavProps> {
             <ul css={NavStyles} role="menu" className="mainNavUl">
               {/* TODO: mark current nav item - add class nav-current */}
               <li role="menuitem" className={isAbout?'nav-current':''}>
+                <Link to="/blog">Blog</Link>
+              </li>
+              <li role="menuitem" className={isAbout?'nav-current':''}>
                 <Link to="/about">About</Link>
               </li>
               <li role="menuitem" className={isContact?'nav-current':''}>

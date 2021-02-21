@@ -3,7 +3,7 @@ layout: post
 title: 'Coming Soon!'
 author: [Sashank Neupane]
 tags: ['coming-soon']
-image: ../img/coming-out-soon.png
+image: ../img/coming-soon.png
 date: '2021-02-21T11:46:37.121Z'
 draft: false
 excerpt: Blogs are coming out soon. Stay tuned.
