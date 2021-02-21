@@ -68,7 +68,7 @@ const About: React.FC = () => (
                   Entrepreneurship. I love exploring and travelling. This website is created to help me put forth
                   my ideas and experience to the entire world.
                 </p>
-                <p>Enjoy my blogs!</p>
+                <p>Blogs are coming soon! Stay tuned.</p>
               </div>
             </PostFullContent>
           </article>
