@@ -59,6 +59,7 @@
     "react-dom": "16.13.1",
     "react-emotion": "10.0.0",
     "react-helmet": "6.1.0",
+    "react-native": "^0.63.4",
     "rehype-react": "6.0.0"
   },
   "devDependencies": {

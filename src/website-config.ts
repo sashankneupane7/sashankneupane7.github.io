@@ -58,28 +58,28 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Soyuj Jung Basnet',
-  description: 'A collection of my thoughts, musings, and experiences.',
+  title: 'Sashank Neupane',
+  description: 'My thoughts, ideas, and experiences.',
   mainDescription:
-    'A personal portfolio and blogging website of Soyuj Jung Basnet. Thoughts, musings, experiences, tutorials, snippets, articles, and everything else.',
+    'My personal portfolio where I pen down all my thoughts, ideas, and experience.',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/logo.png',
   blogLogo: 'img/blog-logo.png',
   lang: 'en',
   themeColor: '#26A6ED',
-  siteUrl: 'https://soyuj.com.np',
-  blogTitle: 'Soyuj Jung Basnet Blogs',
-  facebook: 'https://github.com/basnetsoyuj',
-  twitter: 'https://twitter.com/basnetsoyuj',
-  instagram: 'https://www.instagram.com/basnetsoyuj',
-  linkedin: 'https://www.linkedin.com/in/basnetsoyuj',
-  email: 'bsoyuj@gmail.com',
+  siteUrl: 'https://sashankneupane.com.np',
+  blogTitle: 'Sashank Blogs',
+  facebook: 'https://github.com/sashankneupane7',
+  twitter: 'https://twitter.com/SashankNeupane1',
+  instagram: 'https://www.instagram.com/neupanesashank',
+  linkedin: 'https://www.linkedin.com/in/sashank-neupane-8b4330192/?originalSubdomain=np',
+  email: 'sashankneupane7@gmail.com',
   showSubscribe: true,
-  mailchimpName: 'sjbblogs',
+  mailchimpName: 'sashank blogs',
   mailchimpEmailFieldName: 'email',
   mailchimpAction: 'https://feedburner.google.com/fb/a/mailverify?uri=sjbblogs',
   googleSiteVerification: 'GoogleCode',
-  footer: 'Soyuj Jung Basnet',
+  footer: 'Sashank Neupane',
 };
 
 export default config;

@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
@@ -14,7 +13,6 @@ export const Footer: React.FC = () => {
           {config.footer && <>{config.footer}</>} &copy; {new Date().getFullYear()}{' '}
         </section>
         <SiteFooterNav>
-          <Link to="/blog">Latest Posts</Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">
               GitHub
@@ -25,7 +23,6 @@ export const Footer: React.FC = () => {
               Twitter
             </a>
           )}
-          <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
     </footer>
@@ -35,7 +32,7 @@ export const Footer: React.FC = () => {
 const SiteFooter = css`
   position: relative;
   padding-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 25px;
   color: #000;
   background: #fff;
 `;

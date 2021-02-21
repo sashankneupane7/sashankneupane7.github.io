@@ -87,15 +87,14 @@ const Contact: React.FC = () => (
                 </div>
               </SiteDescription>
               <SiteDescription>
-                I would love to hear from you. Don’t be a stranger, just say hello! Feel free to
-                drop any feedback, suggestions, or questions. I am always open to discussing new
-                projects, creative ideas, and opportunities.
+                Let's connect. I would love to hear from you. I am always open to constructive feedback and suggestions. Also, you can drop down your queries
+                or discuss about new projects, creative ideas, and opportunities.
               </SiteDescription>
               <SiteDescription>
                 If you want to report bugs, typos, grammatical errors, or any other types of
                 inaccuracies in the blog, please open an issue{' '}
                 <a
-                  href="https://github.com/basnetsoyuj/personal-website/issues/new"
+                  href="https://github.com/sashankneupane7/sashankneupane7.github.io/issues/new"
                   target="_blank"
                 >
                   here

@@ -352,3 +352,23 @@ export const NoImage = css`
     }
   }
 `;
+
+export const imageCropper = css`
+  width: 180px;
+  height: 180px;
+  margin-left: auto;
+  margin-top: 100%;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1.5px solid white;
+`;
+
+export const profilePicture = css`
+  display: block;
+  borderColor: "white";
+  margin: auto auto;
+  height: auto;
+  width: auto;
+`;
+

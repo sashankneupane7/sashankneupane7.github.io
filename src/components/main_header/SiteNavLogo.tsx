@@ -6,7 +6,7 @@ import { css } from '@emotion/core';
 export const SiteNavLogo = () => (
 <Link className="site-nav-logo" css={SiteNavLogoStyles} to="/">
   <h1>
-    soyuj<span>jung</span>basnet
+    sashank<span>neupane</span>
   </h1>
 </Link>
 );

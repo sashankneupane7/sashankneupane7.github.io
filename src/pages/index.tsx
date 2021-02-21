@@ -2,12 +2,11 @@ import { Link, graphql } from 'gatsby';
 import { FixedObject } from 'gatsby-image';
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Image, StyleSheet } from 'react-native'
 
 import { Footer } from '../components/mainFooter';
 import SiteNav from '../components/main_header/SiteNav';
-
 import { Wrapper } from '../components/Wrapper';
-
 import MainIndexLayout from '../layouts/mainIndex';
 import {
   inner,
@@ -17,6 +16,8 @@ import {
   SiteMain,
   SiteTitle,
   SiteHeaderStyles,
+  imageCropper,
+  profilePicture
 } from '../styles/mainShared';
 
 import config from '../website-config';
@@ -81,7 +82,10 @@ const IndexPage: React.FC<IndexProps> = props => {
           <div css={inner}>
             <SiteHeaderContent className="site-header-conent">
               <SiteTitle className="site-title">
-                Just another human training artificial neural networks.
+                <div css={imageCropper}>
+                  <img src={require('../content/img/knahsas.jpg')} css={profilePicture}/>
+                </div>
+                <div>Hi, I am Sashank.</div>
               </SiteTitle>
             </SiteHeaderContent>
           </div>
