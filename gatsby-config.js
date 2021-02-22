@@ -27,6 +27,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-remove-trailing-slashes`,
+    `gatsby-theme-gallery`,
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
