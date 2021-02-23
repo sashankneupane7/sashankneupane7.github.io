@@ -23,9 +23,9 @@ export const Footer: React.FC = () => {
               GitHub
             </a>
           )}
-          {config.twitter && (
-            <a href={config.twitter} target="_blank" rel="noopener noreferrer">
-              Twitter
+          {config.linkedin && (
+            <a href={config.linkedin} target="_blank" rel="noopener noreferrer">
+              LinkedIn
             </a>
           )}
           <Link to="/contact">Contact</Link>

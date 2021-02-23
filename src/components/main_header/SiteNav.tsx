@@ -22,9 +22,8 @@ interface SiteNavProps {
   isAbout?: boolean;
 }
 class SiteNav extends React.Component<SiteNavProps> {
-
   render(): JSX.Element {
-    const { isContact=false, isAbout = false} = this.props;
+    const { isContact = false, isAbout = false } = this.props;
     return (
       <nav css={SiteNavStyles} className="mainNav">
         <SiteNavLeft className="site-nav-left">
@@ -35,11 +34,8 @@ class SiteNav extends React.Component<SiteNavProps> {
               <li role="menuitem">
                 <Link to="/blog">Blog</Link>
               </li>
-              <li role="menuitem" className={isAbout?'nav-current':''}>
+              <li role="menuitem" className={isAbout ? 'nav-current' : ''}>
                 <Link to="/about">About</Link>
-              </li>
-              <li role="menuitem" className={isContact?'nav-current':''}>
-                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </SiteNavContent>
@@ -51,28 +47,16 @@ class SiteNav extends React.Component<SiteNavProps> {
         </DarkModeSiteNavRight>
         <SiteNavRight className="svgNav">
           <SocialLinks>
-            {config.github && (
+            {config.instagram && (
               <a
                 className="social-link-fb"
                 css={[SocialLink, SocialLinkFb]}
-                href={config.github}
+                href={config.instagram}
                 target="_blank"
-                title="GitHub"
+                title="Instagram"
                 rel="noopener noreferrer"
               >
-                <GitHub />
-              </a>
-            )}
-            {config.linkedin && (
-              <a
-                className="social-link-fb"
-                css={[SocialLink, SocialLinkFb]}
-                href={config.linkedin}
-                target="_blank"
-                title="LinkedIn"
-                rel="noopener noreferrer"
-              >
-                <LinkedIn />
+                <Instagram />
               </a>
             )}
             {config.facebook && (
@@ -85,18 +69,6 @@ class SiteNav extends React.Component<SiteNavProps> {
                 rel="noopener noreferrer"
               >
                 <Fb />
-              </a>
-            )}
-            {config.instagram && (
-              <a
-                className="social-link-fb"
-                css={[SocialLink, SocialLinkFb]}
-                href={config.instagram}
-                target="_blank"
-                title="Instagram"
-                rel="noopener noreferrer"
-              >
-                <Instagram />
               </a>
             )}
             {config.twitter && (

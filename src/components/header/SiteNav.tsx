@@ -120,17 +120,11 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
           <SiteNavContent css={[this.state.showTitle ? HideNav : '']}>
             <ul css={NavStyles} role="menu">
               {/* TODO: mark current nav item - add class nav-current */}
-              <li role="menuitem">
-                <Link to="/">Home</Link>
-              </li>
               <li role="menuitem" className={isTags ? 'nav-current' : ''}>
                 <Link to="/blog/tags">Tags</Link>
               </li>
               <li role="menuitem" className={isExplore ? 'nav-current' : ''}>
                 <Link to="/blog/explore">Explore</Link>
-              </li>
-              <li role="menuitem">
-                <Link to="/about">About</Link>
               </li>
             </ul>
             {isPost && (
@@ -147,28 +141,16 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
         </DarkModeSiteNavRight>
         <SiteNavRight>
           <SocialLinks>
-            {config.github && (
+            {config.instagram && (
               <a
                 className="social-link-fb"
                 css={[SocialLink, SocialLinkFb]}
-                href={config.github}
+                href={config.instagram}
                 target="_blank"
-                title="GitHub"
+                title="Instagram"
                 rel="noopener noreferrer"
               >
-                <GitHub />
-              </a>
-            )}
-            {config.linkedin && (
-              <a
-                className="social-link-fb"
-                css={[SocialLink, SocialLinkFb]}
-                href={config.linkedin}
-                target="_blank"
-                title="LinkedIn"
-                rel="noopener noreferrer"
-              >
-                <LinkedIn />
+                <Instagram />
               </a>
             )}
             {config.facebook && (
@@ -181,18 +163,6 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 rel="noopener noreferrer"
               >
                 <Fb />
-              </a>
-            )}
-            {config.instagram && (
-              <a
-                className="social-link-fb"
-                css={[SocialLink, SocialLinkFb]}
-                href={config.instagram}
-                target="_blank"
-                title="Instagram"
-                rel="noopener noreferrer"
-              >
-                <Instagram />
               </a>
             )}
             {config.twitter && (

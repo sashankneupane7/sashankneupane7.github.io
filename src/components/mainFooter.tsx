@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
@@ -13,16 +14,18 @@ export const Footer: React.FC = () => {
           {config.footer && <>{config.footer}</>} &copy; {new Date().getFullYear()}{' '}
         </section>
         <SiteFooterNav>
+          <Link to="/blog">Latest Posts</Link>
           {config.github && (
             <a href={config.github} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           )}
-          {config.twitter && (
+          {config.linkedin && (
             <a href={config.twitter} target="_blank" rel="noopener noreferrer">
-              Twitter
+              Linkedin
             </a>
           )}
+          <Link to="/contact">Contact</Link>
         </SiteFooterNav>
       </div>
     </footer>
