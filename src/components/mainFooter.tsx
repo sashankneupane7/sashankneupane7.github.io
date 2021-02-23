@@ -13,8 +13,8 @@ export const Footer: React.FC = () => {
           {config.footer && <>{config.footer}</>} &copy; {new Date().getFullYear()}{' '}
         </section>
         <SiteFooterNav>
-          {config.facebook && (
-            <a href={config.facebook} target="_blank" rel="noopener noreferrer">
+          {config.github && (
+            <a href={config.github} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           )}

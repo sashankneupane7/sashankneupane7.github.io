@@ -17,6 +17,7 @@ export interface WebsiteConfig {
   /**
    * full url, no username
    */
+  github?: string;
   facebook?: string;
   /**
    * full url, no username
@@ -69,10 +70,11 @@ const config: WebsiteConfig = {
   themeColor: '#26A6ED',
   siteUrl: 'https://sashankneupane.com.np',
   blogTitle: 'Sashank Blogs',
-  facebook: 'https://github.com/sashankneupane7',
+  github: 'https://github.com/sashankneupane7',
   twitter: 'https://twitter.com/SashankNeupane1',
   instagram: 'https://www.instagram.com/neupanesashank',
   linkedin: 'https://www.linkedin.com/in/sashank-neupane-8b4330192/?originalSubdomain=np',
+  facebook: 'https://www.facebook.com/sashank.neupane.5',
   email: 'sashankneupane7@gmail.com',
   showSubscribe: true,
   mailchimpName: 'Sashank Blogs',

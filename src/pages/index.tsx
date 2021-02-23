@@ -51,7 +51,7 @@ const IndexPage: React.FC<IndexProps> = props => {
           property="og:image"
           content={`${config.siteUrl}${props.data.ogImage.childImageSharp.fixed.src}`}
         />
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
+        {config.github && <meta property="article:publisher" content={config.github} />}
         {config.googleSiteVerification && (
           <meta name="google-site-verification" content={config.googleSiteVerification} />
         )}

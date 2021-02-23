@@ -7,7 +7,7 @@ import SiteNav from '../components/main_header/SiteNav';
 import { PostFullContent } from '../components/PostContent';
 import { Wrapper } from '../components/Wrapper';
 import { Twitter } from '../components/icons/twitter';
-import { Facebook } from '../components/icons/facebook';
+import { GitHub } from '../components/icons/github';
 import { LinkedIn } from '../components/icons/linkedin';
 import { Instagram } from '../components/icons/instagram';
 import { Mail } from '../components/icons/mail';
@@ -56,7 +56,7 @@ const Contact: React.FC = () => (
       <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
         <div css={[outer, SiteNavMain]} className="mainSiteNavMain">
           <div css={inner}>
-            <SiteNav isContact={true} />
+            <SiteNav isContact />
           </div>
         </div>
       </header>
@@ -69,8 +69,8 @@ const Contact: React.FC = () => (
               </PostFullTitle>
               <SiteDescription>
                 <div className="contactSocialLink" css={ContactSocialLink}>
-                  <a href={config.facebook} target="_blank" className="facebook-svg">
-                    <Facebook css={{ marginLeft: 0 }} />
+                  <a href={config.github} target="_blank" className="facebook-svg">
+                    <GitHub css={{ marginLeft: 0 }} />
                   </a>
                   <a href={config.linkedin} target="_blank">
                     <LinkedIn />

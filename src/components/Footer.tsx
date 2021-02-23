@@ -18,8 +18,8 @@ export const Footer: React.FC = () => {
         </section>
         <SiteFooterNav>
           <Link to="/blog">Latest Posts</Link>
-          {config.facebook && (
-            <a href={config.facebook} target="_blank" rel="noopener noreferrer">
+          {config.github && (
+            <a href={config.github} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           )}

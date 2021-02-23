@@ -157,8 +157,8 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
           <meta property="article:tag" content={post.frontmatter.tags[0]} />
         )}
 
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
-        {config.facebook && <meta property="article:author" content={config.facebook} />}
+        {config.github && <meta property="article:publisher" content={config.github} />}
+        {config.github && <meta property="article:author" content={config.github} />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.frontmatter.title} />
         <meta name="twitter:description" content={post.frontmatter.excerpt || post.excerpt} />

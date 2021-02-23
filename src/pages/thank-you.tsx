@@ -38,7 +38,7 @@ const ThankYouPage: React.FC = () => {
         <meta property="og:description" content={config.mainDescription} />
         <meta property="og:url" content={pageUrl} />
 
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
+        {config.github && <meta property="article:publisher" content={config.github} />}
         {config.googleSiteVerification && (
           <meta name="google-site-verification" content={config.googleSiteVerification} />
         )}

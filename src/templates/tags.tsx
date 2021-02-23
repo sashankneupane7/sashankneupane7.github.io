@@ -81,7 +81,7 @@ const Tags: React.FC<TagTemplateProps> = props => {
           property="og:url"
           content={`${config.siteUrl}/blog/tags/${_.kebabCase(props.pageContext.tag)}`}
         />
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
+        {config.github && <meta property="article:publisher" content={config.github} />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${tagName} | ${config.title}`} />
         <meta
